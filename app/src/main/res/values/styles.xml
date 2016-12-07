@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="OrderBaseStyle">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <style name="OrderBaseStyleHorizontal">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="BaseTextHeader" parent="@style/OrderBaseStyle">
+        <item name="android:layout_width">400dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/header_color</item>
+    </style>
+
+    <style name="TrafficTextHeader" parent="@style/OrderBaseStyle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/header_color</item>
+    </style>
+
+    <style name="BaseSpinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="BaseEditText" parent="@style/OrderBaseStyle">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:lines">1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:maxLength">60</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/value_color</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:longClickable">false</item>
+    </style>
+
+    <style name="MunkalapEditText" parent="@style/OrderBaseStyle">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:textColor">@color/value_color</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
+
+    <style name="BaseTextView" parent="@style/OrderBaseStyle">
+        <item name="android:gravity">left</item>
+        <item name="android:paddingTop">15dp</item>
+    </style>
+
+    <style name="BaseTextViewHorizontal" parent="@style/OrderBaseStyleHorizontal">
+        <item name="android:gravity">left</item>
+        <item name="android:paddingTop">15dp</item>
+    </style>
+
+</resources>
